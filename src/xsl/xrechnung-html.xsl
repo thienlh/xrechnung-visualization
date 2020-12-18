@@ -29,31 +29,32 @@
                             <div role="tablist" class="innen">
                                 <div role="none">
                                     <button role="tab" aria-controls="uebersicht" tabindex="0" aria-selected="true"
-                                            class="btnAktiv" id="menueUebersicht" onclick="show(this);">
+                                            type="button" class="tab btnAktiv" id="menueUebersicht"
+                                            onclick="show(this);">
                                         <span>Übersicht</span>
                                     </button>
                                 </div>
                                 <div role="none">
                                     <button role="tab" aria-controls="details" tabindex="0" aria-selected="false"
-                                            class="tab" id="menueDetails" onclick="show(this);">
+                                            type="button" class="tab" id="menueDetails" onclick="show(this);">
                                         <span>Details</span>
                                     </button>
                                 </div>
                                 <div role="none">
                                     <button role="tab" aria-controls="zusaetze" tabindex="0" aria-selected="false"
-                                            class="tab" id="menueZusaetze" onclick="show(this)">
+                                            type="button" class="tab" id="menueZusaetze" onclick="show(this)">
                                         <span>Zusätze</span>
                                     </button>
                                 </div>
                                 <div role="none">
                                     <button role="tab" aria-controls="anlagen" tabindex="0" aria-selected="false"
-                                            class="tab" id="menueAnlagen" onclick="show(this)">
+                                            type="button" class="tab" id="menueAnlagen" onclick="show(this)">
                                         <span>Anlagen</span>
                                     </button>
                                 </div>
                                 <div role="none">
                                     <button role="tab" aria-controls="laufzettel" tabindex="0" aria-selected="false"
-                                            class="tab" id="menueLaufzettel" onclick="show(this)">
+                                            type="button" class="tab" id="menueLaufzettel" onclick="show(this)">
                                         <span>Laufzettel</span>
                                     </button>
                                 </div>
